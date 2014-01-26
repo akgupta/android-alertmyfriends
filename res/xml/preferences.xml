@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_siren"
+        android:title="@string/pref_siren"
+        android:icon="@drawable/ic_menu_siren"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="pref_shake"
+        android:title="@string/pref_shake"
+        android:icon="@drawable/ic_menu_shake"
+        android:defaultValue="false" />
+</PreferenceScreen>
